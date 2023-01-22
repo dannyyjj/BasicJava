@@ -18,3 +18,6 @@ public class Exception_02 {
 }
 // catch (ArithmeticException e) - 예제 Exception_01에서 try/catch 추가
 //                                 for문이 돌아가는 동안 ArithmeticException 발생시 catch블럭 내 문장 실행
+
+// ArithmeticException 예외처리 발생시 변수 e를 출력해보면
+// java.lang.ArithmeticException: / by zero - 예외처리가 발생한 원인을 볼 수 있음

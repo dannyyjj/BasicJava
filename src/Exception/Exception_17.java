@@ -12,7 +12,7 @@ public class Exception_17 {
         } catch (MemoryException me) {
             System.out.println("에러 메시지 : " + me.getMessage());
             me.printStackTrace();
-            System.gc();
+            System.gc(); //Garbage Collection을 수행하여 메모리를 늘려준다.
             System.out.println("다시 섩치를 시도하세요.");
         }
     }

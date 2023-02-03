@@ -70,3 +70,10 @@ public class Exception_19 {
         }
     }
 
+// 한 예외가 다른 예외를 발생시킬 수 있음
+// ex) 예외A가 예외B를 발생시켰다면, A를 B의 '원인 예외(cause exception)'라고 함
+// 상속관계의 예외처리는 실제로 발생한 예외가 어떤 것인지 알 수 없다는 문제가 있음
+// 그래서 예외가 원인 예외를 포함할 수 있게 함
+// install()메서드에서 InstallException ie = new InstallException("설치 중 예외 발생");
+//                  ie.initCause(se);
+// 를 통해서 SpaceException를 통해 설치공간 부족 예외를 던져줌

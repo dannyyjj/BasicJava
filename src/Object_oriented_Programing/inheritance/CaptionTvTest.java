@@ -9,10 +9,10 @@ class Tv {
 }
 
 class CaptionTv extends Tv {
-    boolean caption; // 자막
+    boolean caption;
 
     void displayCaption(String text) {
-        if (caption) { // 자막이 on(true)일 때만 text를 보여줌
+        if (caption) { // 캡션이 on(true)일 때만 text를 보여줌
             System.out.println(text);
         }
     }

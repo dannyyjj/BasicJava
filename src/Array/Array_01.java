@@ -25,4 +25,4 @@ public class Array_01 {
 }
 
 //        System.arraycopy(num,0,result,0,num.length);
-//        num[0]부터 num.length만큼의 데이터를 result배열에 0부터 넣음
+//        num[0]부터 num.length개의 데이터를 result배열에 [0]부터 넣음

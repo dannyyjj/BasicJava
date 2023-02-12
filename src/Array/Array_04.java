@@ -15,7 +15,7 @@ public class Array_04 {
             int n = (int) (Math.random() * 10); // 0~9 랜덤값 생성
             int tmp = numArr[0]; // numArr[0]의 값과
             numArr[0] = numArr[n]; // numArr[n]의 값을
-            numArr[n] = tmp; // 바꿔줌
+            numArr[n] = tmp; // 서로 바꿔줌
         }
 
         for (int i = 0; i < numArr.length; i++) {
